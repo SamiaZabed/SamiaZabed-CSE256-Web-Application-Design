@@ -1,0 +1,151 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  padding:40px 20px;
+  font-family:Arial,sans-serif;
+  background:#f3f4f6;
+  color:#333;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+}
+
+/* Certificate */
+
+.certificate{
+  background:#fff;
+  border:8px double #1e3a5f;
+  padding:45px;
+  text-align:center;
+}
+
+.logo{
+  width:220px;
+  max-width:55%;
+  height:auto;
+  object-fit:contain;
+}
+
+.certificate h3{
+  color:#1e3a5f;
+  margin:10px 0 30px;
+}
+
+.certificate h1{
+  font-family:Georgia,serif;
+  font-size:52px;
+  letter-spacing:5px;
+  margin:0;
+  color:#1e3a5f;
+}
+
+.certificate h4{
+  letter-spacing:5px;
+  color:#b58b38;
+  margin:5px 0 35px;
+}
+
+.certificate h2{
+  font-family:Georgia,serif;
+  font-size:36px;
+  color:#b58b38;
+  border-bottom:1px solid #aaa;
+  width:60%;
+  margin:15px auto 25px;
+  padding-bottom:8px;
+}
+
+.text{
+  max-width:650px;
+  margin:auto;
+  line-height:1.8;
+}
+
+.bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  margin-top:55px;
+}
+
+.bottom div:not(.seal){
+  width:180px;
+  border-top:1px solid #555;
+  padding-top:8px;
+}
+
+.bottom span,
+.bottom small{
+  display:block;
+}
+
+.bottom small{
+  color:#777;
+  margin-top:5px;
+}
+
+.seal{
+  width:75px;
+  height:75px;
+  background:#b58b38;
+  color:white;
+  border:5px double white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:13px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+/* Skills */
+
+.skills{
+  margin-top:40px;
+}
+
+.skills > h2{
+  text-align:center;
+  color:#1e3a5f;
+  font-size:30px;
+}
+
+.skill-list{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.skill{
+  background:white;
+  padding:25px;
+  border-top:4px solid #1e3a5f;
+  box-shadow:0 5px 18px #00000012;
+}
+
+.skill h3{
+  margin:0 0 8px;
+  color:#1e3a5f;
+}
+
+.skill p{
+  color:#777;
+  font-size:14px;
+}
+
+.skill span{
+  display:inline-block;
+  margin-top:10px;
+  padding:6px 12px;
+  background:#eef2f7;
+  color:#1e3a5f;
+  border-radius:4px;
+  font-size:12px;
+  font-weight:bold;
+}
